@@ -1,13 +1,13 @@
 # fortran-fortress
 A repository of my efforts to learn fortran with python scripts to plot the results
 
-# hello world
+## hello world
 ```fortran
 program hello_world
     print *, "Hello, World!"
 end program hello_world
 ```
-# simple addition
+## simple addition
 ```fortran
 program simple_addition
     implicit none
@@ -20,7 +20,7 @@ program simple_addition
     print *, "The sum of ", a, " and ", b, " is ", sum
 end program simple_addition
 ```
-# variable declaration
+## variable declaration
 ```fortran
 program variable_declaration
     implicit none
@@ -38,7 +38,7 @@ program variable_declaration
     print *, "Character: ", char_var
 end program variable_declaration
 ```
-# input output
+## input output
 ```fortran
 program input_output
     implicit none
@@ -49,7 +49,7 @@ program input_output
     print *, "You entered: ", num
 end program input_output
 ```
-# arithmetic operations
+## arithmetic operations
 ```fortran
 program arithmetic_operations
     implicit none
@@ -69,7 +69,7 @@ program arithmetic_operations
     print *, "Quotient: ", quotient
 end program arithmetic_operations
 ```
-# temperature conversion
+## temperature conversion
 ```fortran
 program temperature_conversion
     implicit none
@@ -82,7 +82,7 @@ program temperature_conversion
     print *, "Temperature in Fahrenheit: ", fahrenheit
 end program temperature_conversion
 ```
-# simple interest
+## simple interest
 ```fortran
 program simple_interest
     implicit none
@@ -100,7 +100,7 @@ program simple_interest
     print *, "Simple Interest: ", interest
 end program simple_interest
 ```
-# quadratic equation solver
+## quadratic equation solver
 ```fortran
 program quadratic_equation_solver
     implicit none
@@ -122,7 +122,7 @@ program quadratic_equation_solver
 end program quadratic_equation_solver
 ```
 
-# bmi calculator
+## bmi calculator
 ```fortran
 program bmi_calculator
     implicit none
@@ -139,7 +139,7 @@ program bmi_calculator
 end program bmi_calculator
 ```
 
-# area of circle
+## area of circle
 ```fortran
 program area_of_circle
     implicit none
@@ -155,14 +155,14 @@ program area_of_circle
 end program area_of_circle
 ```
 
-# supported numerical methods
+# numerical methods
 - newton-raphson
 - euler-maruyama
 - euler
 - monte carlo calculation of pi
 - geometric series
 - linear regression (one variable)
-# usage
+## usage
 ```bash
 git clone https://github.com/AdamZettel/fortran-fortress.git
 cd fortran-fortress/numerical
