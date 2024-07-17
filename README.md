@@ -26,7 +26,7 @@ program hello_world
     print *, "Hello, World!"
 end program hello_world
 ```
-## [simple addition](fortran-fortress/syntax/basic/001_simple_addition.f90)
+## [simple addition](syntax/basic/001_simple_addition.f90)
 ```fortran
 program simple_addition
     implicit none
