@@ -12,20 +12,21 @@ python3 plot_monte_carlo_pi.py
 ![mc_pi](https://github.com/AdamZettel/fortran-fortress/assets/104731318/9538adc1-a276-473b-8e87-584b6d36013f)
 
 # numerical methods
-- newton-raphson
-- euler-maruyama
-- euler
-- monte carlo calculation of pi
-- geometric series
-- linear regression (one variable)
-
-## hello world
+- [newton-raphson](../newtons_method.f90)
+- [euler](../euler_method_exponential.f90)
+- [euler-maruyama](../euler_maruyama.f90)
+- [monte carlo calculation of pi](../monte_carlo_pi.f90)
+- [geometric series](../geometric_series.f90)
+- [linear regression (one variable)](../linear_regression.f90)
+# example programs
+These programs show the basics of Fortran syntax
+## [hello world](../syntax/basic/000_hello_world.f90)
 ```fortran
 program hello_world
     print *, "Hello, World!"
 end program hello_world
 ```
-## simple addition
+## [simple addition](../syntax/basic/001_simple_addition.f90)
 ```fortran
 program simple_addition
     implicit none
@@ -38,7 +39,7 @@ program simple_addition
     print *, "The sum of ", a, " and ", b, " is ", sum
 end program simple_addition
 ```
-## variable declaration
+## [variable declaration](../syntax/basic/002_variable_declaration.f90)
 ```fortran
 program variable_declaration
     implicit none
