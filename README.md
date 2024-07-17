@@ -12,15 +12,15 @@ python3 plot_monte_carlo_pi.py
 ![mc_pi](https://github.com/AdamZettel/fortran-fortress/assets/104731318/9538adc1-a276-473b-8e87-584b6d36013f)
 
 # numerical methods
-- [newton-raphson](newtons_method.f90)
-- [euler](euler_method_exponential.f90)
-- [euler-maruyama](euler_maruyama.f90)
-- [monte carlo calculation of pi](../monte_carlo_pi.f90)
-- [geometric series](geometric_series.f90)
-- [linear regression (one variable)](linear_regression.f90)
+- [newton-raphson](numerical/newtons_method.f90)
+- [euler](numerical/euler_method_exponential.f90)
+- [euler-maruyama](numerical/euler_maruyama.f90)
+- [monte carlo calculation of pi](numerical/monte_carlo_pi.f90)
+- [geometric series](numerical/geometric_series.f90)
+- [linear regression (one variable)](numerical/linear_regression.f90)
 # example programs
 These programs show the basics of Fortran syntax
-## [hello world](../syntax/basic/000_hello_world.f90)
+## [hello world](syntax/basic/000_hello_world.f90)
 ```fortran
 program hello_world
     print *, "Hello, World!"
