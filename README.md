@@ -57,7 +57,7 @@ program variable_declaration
     print *, "Character: ", char_var
 end program variable_declaration
 ```
-## input output
+## [input output](syntax/basic/003_input_output.f90)
 ```fortran
 program input_output
     implicit none
@@ -68,7 +68,7 @@ program input_output
     print *, "You entered: ", num
 end program input_output
 ```
-## arithmetic operations
+## [arithmetic operations](syntax/basic/004_arithmetic_operations.f90)
 ```fortran
 program arithmetic_operations
     implicit none
@@ -88,7 +88,7 @@ program arithmetic_operations
     print *, "Quotient: ", quotient
 end program arithmetic_operations
 ```
-## temperature conversion
+## [temperature conversion](syntax/basic/005_temperature_conversion.f90)
 ```fortran
 program temperature_conversion
     implicit none
@@ -101,7 +101,7 @@ program temperature_conversion
     print *, "Temperature in Fahrenheit: ", fahrenheit
 end program temperature_conversion
 ```
-## simple interest
+## [simple interest](syntax/basic/006_simple_interest.f90)
 ```fortran
 program simple_interest
     implicit none
@@ -119,7 +119,7 @@ program simple_interest
     print *, "Simple Interest: ", interest
 end program simple_interest
 ```
-## quadratic equation solver
+## [quadratic equation solver](syntax/basic/007_quadratic_equation_solver.f90)
 ```fortran
 program quadratic_equation_solver
     implicit none
@@ -141,7 +141,7 @@ program quadratic_equation_solver
 end program quadratic_equation_solver
 ```
 
-## bmi calculator
+## [bmi calculator](syntax/basic/008_bmi_calculator.f90)
 ```fortran
 program bmi_calculator
     implicit none
@@ -158,7 +158,7 @@ program bmi_calculator
 end program bmi_calculator
 ```
 
-## area of circle
+## [area of circle](syntax/basic/009_area_of_circle.f90)
 ```fortran
 program area_of_circle
     implicit none
